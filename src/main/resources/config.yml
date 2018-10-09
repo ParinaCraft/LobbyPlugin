@@ -1,0 +1,56 @@
+enabled: true
+
+void:
+    teleport-out:
+        enabled: true
+        fall-distance: -20
+        worlds:
+            world:
+                enabled: true
+                coords: 0, 100, 0, 90, 0
+
+minigames:
+    chicken-race:
+        enabled: true
+        start-countdown: 5
+        start-locations:
+            Start:
+                enabled: true
+                default-track: Noob EZ
+                center-location: world; -37.5, 98, -154.5
+                exit-location: world; -44, 98, -154
+                track-selector-location: world; -40.5, 98, -157.5
+                leaderboards-location: world; -48.5, 98, -158.5
+                shape: plus
+                shape-size:
+                - 2.5
+                - 3
+                shape-effect: HEART
+                tracks:
+                - Noob EZ
+        tracks:
+            Noob-EZ:
+                enabled: true
+                name: Noob EZ
+                launch-velocity: 0, 2, 0
+                speed: 0.5
+                max-y: 2.0
+                min-y: -0.3
+                jump-force: 1.5
+                gravity: 0.1
+                too-far-away-threshold: 30
+                path-render-distance: 3
+                path:
+                    - world; -22, 126, -155; 0, 0, 0; 2; HEART
+                    - world; 13, 127, -152; 0, 0, 0; 2; HEART
+                    - world; 37, 115, -152; 0, 0, 0; 2; HEART
+                    - world; 38, 46, -152; 0, 0, 0; 2; HEART
+                    - world; 19, 70, -122; 0, 0, 0; 2; HEART
+                    - world; 56, 86, -63; 0, 0, 0; 2; HEART
+                    - world; 41, 116, -4; 0, 0, 0; 2; HEART
+                    - world; -48, 116, -36; 0, 0, 0; 2; HEART
+                    - world; -49, 97, -96; 0, 0, 0; 2; HEART
+    npc-hunting:
+        enabled: true
+        npcs:
+        - Taulukauppias

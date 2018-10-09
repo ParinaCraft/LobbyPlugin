@@ -1,0 +1,15 @@
+name: LobbyPlugin
+version: 1.0
+description: Makes your lobby COOL!
+author: isokissa3
+website: https://joniaromaa.fi
+
+main: fi.joniaromaa.lobbyplugin.LobbyPlugin
+depend: [ParinaCoreLibrary]
+softdepend: [Citizens]
+
+commands:
+    chickenrace:
+        description: Commands for the awesome chicken race plugin!
+        permission: chickenrace.admin
+        usage: Syntax error! Git gud!
